@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Numbers Generator</title>
+    <script>
+
+        function resetForm() {
+            document.getElementById('numberInput').value = '';
+            document.getElementById('error').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <form id="primeForm" action="primes" method="POST">
+        <table>
+            <tr>
+                <td>Enter an integer n:</td>
+                <td><input type="text" id="numberInput" name="number"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="RESET" onclick="resetForm()">
+                    <input type="submit" value="PRINT">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="error" style="display: none; color: red;">You input wrong</div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -22,3 +22,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/SE1909_Slot2/nbproject/private/
+/SE1909_Slot2/dist/
+/SE1909_Slot2/build/
+/ServletReview1/nbproject/private/
+/ServletReview1/build/
+/ServletReview2/nbproject/private/
+/ServletReview2/build/
+/ServletReview3/nbproject/private/
+/ServletReview3/build/
+/ServletReview4/nbproject/private/
+/ServletReview4/build/

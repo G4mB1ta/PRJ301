@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="review3.css">
+    </head>
+    <body>
+        <div>
+            <form action="process3" method="POST">
+                
+            <table>
+
+                <tr>
+                    <td>First Name:</td>
+                    <td>
+                        <input type="text" name="firstname" id="first-name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Last Name:</td>
+                    <td>
+                        <input type="text" name="lastname" id="last-name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Roll number:</td>
+                    <td>
+                        <input type="text" name="rollnumber" id="roll-number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Birthday:</td>
+                    <td>
+                        <input type="date" name="birthday" id="birthday" placeholder="ddmmyy">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                        <input type="radio" name="gender" value="Other"> Other
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Specialization</td>
+                    <td>
+                        <select id = "specialization" name="specialization">
+                            <option>Software Engineering</option>
+                            <option>Electrical Engineering</option>
+                            <option>Mechanical Engineering</option>
+                            <option>Civil Engineering</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>English:</td>
+                    <td><input type="checkbox" name="english1"> English 1</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="english2"> English 2</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="english3"> English 3</td>
+                </tr>
+
+
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="english4"> English 4</td>
+                </tr>
+
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+            </form>
+
+        </div>
+
+        <div>
+            <h2 class="">List of Student</h2>
+            <table class="table-solid-border">
+                <tr class="bold tr-text-align-center">
+                    <td>Roll number</td>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Birthday</td>
+                    <td>Gender</td>
+                    <td>Specialization</td>
+                    <td>English1</td>
+                    <td>English2</td>
+                    <td>English3</td>
+                    <td>English4</td>
+                </tr>
+                <tr>
+                    <td>HE190001</td>
+                    <td>Nguyen Thanh</td>
+                    <td>Nam</td>
+                    <td>2004-01-01</td>
+                    <td>Male</td>
+                    <td>Software Engineering</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>HE190002</td>
+                    <td>Nguyen Thi</td>
+                    <td>Thuy</td>
+                    <td>2004-10-12</td>
+                    <td>Female</td>
+                    <td>Software Engineering</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                    <td>Not Passed</td>
+                </tr>
+                <tr>
+                    <td>HE190003</td>
+                    <td>Tran Thi</td>
+                    <td>Huong</td>
+                    <td>2004-05-25</td>
+                    <td>Female</td>
+                    <td>Artificial Intelligence</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                    <td>Not Passed</td>
+                    <td>Not Passed</td>
+                </tr>
+                <tr>
+                    <td>HE190004</td>
+                    <td>Tran Duy</td>
+                    <td>Binh</td>
+                    <td>2004-08-17</td>
+                    <td>Male</td>
+                    <td>Information Assurance</td>
+                    <td>Passed</td>
+                    <td>Passed</td>
+                    <td>Not Passed</td>
+                    <td>Not Passed</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

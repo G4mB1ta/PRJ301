@@ -33,3 +33,6 @@ replay_pid*
 /ServletReview3/build/
 /ServletReview4/nbproject/private/
 /ServletReview4/build/
+/DatabaseConnect/nbproject/private/
+/DatabaseConnect/dist/
+/DatabaseConnect/build/
